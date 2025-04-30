@@ -41,5 +41,7 @@ Small implementation based on Ktor, 3-Layer and DI (Dependency Inversion + Depen
 - https://kotlinlang.org/docs/no-arg-plugin.html#maven
 - https://quarkus.io/guides/kotlin
 - https://slumber.lucaspickering.me/
+- https://jitpack.io/
+- https://github.com/Julien-cpsn/ktor-plugin-mqtt
 - {hurl}
 - {quarkus}
