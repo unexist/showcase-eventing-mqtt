@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>todo-service-ktor</artifactId>
+    <artifactId>todo-service-mqtt-ktor</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
 
@@ -44,6 +44,14 @@
         <koin-ktor3.version>4.1.0-Beta4</koin-ktor3.version>
         <swagger-parser.version>2.1.22</swagger-parser.version>
     </properties>
+
+    <!-- Jitpack -->
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <!-- Kotlin -->
@@ -203,6 +211,13 @@
             <groupId>com.orbitz.consul</groupId>
             <artifactId>consul-client</artifactId>
             <version>${consul-client.version}</version>
+        </dependency>
+
+        <!-- MQTT -->
+        <dependency>
+            <groupId>com.github.julien-cpsn</groupId>
+            <artifactId>ktor-plugin-mqtt</artifactId>
+            <version>main-SNAPSHOT</version>
         </dependency>
 
         <!-- Testing -->

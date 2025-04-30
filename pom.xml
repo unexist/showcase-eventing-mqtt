@@ -47,7 +47,7 @@
     </developers>
 
     <modules>
-        <module>todo-service-ktor</module>
-        <module>todo-service-quarkus</module>
+        <module>todo-service-mqtt-ktor</module>
+        <module>todo-service-mqtt-quarkus</module>
     </modules>
 </project>
