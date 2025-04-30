@@ -31,16 +31,16 @@ build-all:
 	mvn package
 
 build-ktor:
-	mvn package -pl todo-service-ktor
+	mvn package -pl todo-service-mqtt-ktor
 
 build-quarkus:
-	mvn package -pl todo-service-quarkus
+	mvn package -pl todo-service-mqtt-quarkus
 
 run-ktor:
-	java -jar todo-service-ktor/target/todo-service-ktor-0.1-jar-with-dependencies.jar
+	java -jar todo-service-mqtt-ktor/target/todo-service-mqtt-ktor-0.1-jar-with-dependencies.jar
 
 run-quarkus:
-	java -jar todo-service-quarkus/target/quarkus-app/quarkus-run.jar
+	java -jar todo-service-mqtt-quarkus/target/quarkus-app/quarkus-run.jar
 
 # Podman
 pd-machine-init:
@@ -59,7 +59,7 @@ pd-machine-recreate: pd-machine-rm pd-machine-init pd-machine-start
 
 pd-pod-create:
 	@podman pod create -n $(PODNAME) --network bridge \
-		-p 5432:5432 -p 8500:8500
+		-p 1883:1883 -p 5432:5432 -p 8500:8500
 
 pd-pod-rm:
 	podman pod rm -f $(PODNAME)
