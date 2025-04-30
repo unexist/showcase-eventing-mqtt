@@ -1,0 +1,45 @@
+= Showcase for eventing
+
+:hurl: https://hurl.dev
+:curl: https://curl.se/
+:quarkus: https://quarkus.io/
+:ktor: https://ktor.io/
+
+This project holds a showcase for Kotlin related things.
+
+== Modules
+
+=== todo-service-ktor
+
+Small implementation based on Ktor
+
+=== todo-service-quarkus
+
+Small implementation based on Ktor, 3-Layer and DI (Dependency Inversion + Dependency Injection)
+
+== Makefile
+
+[cols="1,3"]
+|===
+| todo | Call {curl}[curl] and create todo entry
+| list | Fetch list of todo entries via {curl}[curl]
+| hurl | Run {hurl}[Hurl] test suite
+| build-ktor | Build {ktor}[Ktor] application
+| build-quarkus | Build {quarkus}[Quarkus] application
+| run-ktor | Run {ktor}[Ktor] application
+| run-quarkus | Run {quarkus}[Quarkus] application
+|===
+
+== Links
+
+- {ktor}
+- https://ktor.io/docs/testing.html
+- https://github.com/oshai/kotlin-logging
+- https://www.consul.io/
+- https://github.com/mlvandijk/kukumber-skeleton
+- https://cucumber.io/docs/installation/kotlin/
+- https://kotlinlang.org/docs/no-arg-plugin.html#maven
+- https://quarkus.io/guides/kotlin
+- https://slumber.lucaspickering.me/
+- {hurl}
+- {quarkus}
