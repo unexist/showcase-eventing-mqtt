@@ -1,5 +1,5 @@
 /**
- * @package Showcase-Microservices-Kotlin
+ * @package Showcase-Eventing-MQTT
  *
  * @file Test Suite
  * @copyright 2021-present Christoph Kappel <christoph@unexist.dev>

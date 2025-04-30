@@ -1,5 +1,5 @@
 /**
- * @package Showcase-Microservices-Kotlin
+ * @package Showcase-Eventing-MQTT
  *
  * @file Todo list repository
  * @copyright 2023-present Christoph Kappel <christoph@unexist.dev>

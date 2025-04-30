@@ -1,5 +1,5 @@
 /**
- * @package Showcase-Microservices-Kotlin
+ * @package Showcase-Eventing-MQTT
  *
  * @file Todo application config
  * @copyright 2025-present Christoph Kappel <christoph@unexist.dev>

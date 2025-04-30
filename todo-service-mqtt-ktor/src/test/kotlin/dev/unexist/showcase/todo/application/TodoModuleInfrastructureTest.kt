@@ -1,5 +1,5 @@
 /**
- * @package Showcase-Microservices-Kotlin
+ * @package Showcase-Eventing-MQTT
  *
  * @file Stupid integration test
  * @copyright 2023-present Christoph Kappel <christoph@unexist.dev>

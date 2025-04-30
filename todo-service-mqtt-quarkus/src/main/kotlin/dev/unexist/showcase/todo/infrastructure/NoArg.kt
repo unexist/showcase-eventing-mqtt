@@ -1,7 +1,7 @@
 package dev.unexist.showcase.todo.infrastructure
 
 /**
- * @package Showcase-Microservices-Kotlin
+ * @package Showcase-Eventing-MQTT
  *
  * @file Marker annotation
  * @copyright 2023-present Christoph Kappel <christoph@unexist.dev>
